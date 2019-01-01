@@ -19,3 +19,6 @@ The aim of N-Queens Problem is to place N queens on an N x N chessboard, in a wa
 - Step 5: Mutation may take place
 - Step 6: New chromosomes added to population
 - Repeat Step 2 to 6 until a chromosome (solution) with Fitness value = Fmax is found
+
+### Note
+Since most of the process is random, it doesn't always take the same time to converge to a solution.
