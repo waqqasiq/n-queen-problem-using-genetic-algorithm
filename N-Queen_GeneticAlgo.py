@@ -87,7 +87,7 @@ if __name__ == "__main__":
     print("Solved in Generation {}!".format(generation-1))
     for chrom in population:
         if fitness(chrom) == maxFitness:
-            print("");
+            print("")
             print("One of the solutions: ")
             chrom_out = chrom
             print_chromosome(chrom)
